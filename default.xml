@@ -5,6 +5,7 @@
   <remote name="OpenSTLinux" fetch="https://github.com/STMicroelectronics"/>
   <remote alias="repo" fetch="https://github.com/meta-flutter" name="flutter"/>
   <remote alias="repo" fetch="https://github.com/kraj" name="clang"/>
+  <remote alias="repo" fetch="https://github.com/peterjinweigu" name="dimos"/>
   
   <default remote="OpenSTLinux"/>
   
@@ -18,4 +19,6 @@
 
   <project name="meta-flutter" path="layers/meta-flutter" remote="flutter" revision="b3ea7e792e546d553916cb3a7e5f05e4572f0602" upstream="scarthgap"/>
   <project name="meta-clang" path="layers/meta-clang" remote="clang" revision="9dc2588e34eaf27768d9606d3db2f533f0b9410b" upstream="scarthgap"/>
+  <project name="meta-dimos" path="layers/meta-dimos" remote="dimos" revision="35ca23b83bfe2fbbe2cf7b749a66be721a4ee238" upstream="main"/>
+
 </manifest>
